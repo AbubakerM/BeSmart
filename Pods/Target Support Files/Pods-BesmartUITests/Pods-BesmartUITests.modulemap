@@ -1,0 +1,6 @@
+framework module Pods_BesmartUITests {
+  umbrella header "Pods-BesmartUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>376917705351-mqkpmsaflu7u4ibm0vcmdqboe0adtmh1.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.376917705351-mqkpmsaflu7u4ibm0vcmdqboe0adtmh1</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC_tXig_owrd72twIQWnBLpvWPCQx1aRm8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>376917705351</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.avocode.Besmart</string>
+	<key>PROJECT_ID</key>
+	<string>besmartt-74318</string>
+	<key>STORAGE_BUCKET</key>
+	<string>besmartt-74318.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:376917705351:ios:e22f8195f0f4cc704aee22</string>
+	<key>DATABASE_URL</key>
+	<string>https://besmartt-74318.firebaseio.com</string>
+</dict>
+</plist>
