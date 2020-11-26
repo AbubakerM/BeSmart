@@ -9,11 +9,13 @@
 import UIKit
 import StoreKit
 
+
 enum PKIAPHandlerAlertType {
     case setProductIds
     case disabled
     case restored
     case purchased
+    case failed
     
     var message: String{
         switch self {
@@ -21,6 +23,7 @@ enum PKIAPHandlerAlertType {
         case .disabled: return "Purchases are disabled in your device!"
         case .restored: return "You've successfully restored your purchase!"
         case .purchased: return "You've successfully bought this purchase!"
+        case .failed: return "Product purchase failed"
         }
     }
 }
@@ -122,7 +125,7 @@ extension PKIAPHandler: SKProductsRequestDelegate, SKPaymentTransactionObserver{
             }
         }
     }
-    
+
     func paymentQueueRestoreCompletedTransactionsFinished(_ queue: SKPaymentQueue) {
         if let complition = self.purchaseProductComplition {
             complition(PKIAPHandlerAlertType.restored, nil, nil)
@@ -144,6 +147,9 @@ extension PKIAPHandler: SKProductsRequestDelegate, SKPaymentTransactionObserver{
                     
                 case .failed:
                     log("Product purchase failed")
+                    if let complition = self.purchaseProductComplition {
+                        complition(PKIAPHandlerAlertType.failed, self.productToPurchase, trans)
+                    }
                     SKPaymentQueue.default().finishTransaction(transaction as! SKPaymentTransaction)
                     break
                 case .restored:
@@ -152,6 +158,7 @@ extension PKIAPHandler: SKProductsRequestDelegate, SKPaymentTransactionObserver{
                     break
                     
                 default: break
-                }}}
+        }}}
     }
 }
+

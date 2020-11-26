@@ -119,6 +119,7 @@
 		5A58D903CF33D02CD09CFA12 /* Pods_BesmartUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F76D1A4709A5D45AFE7D1A1 /* Pods_BesmartUITests.framework */; };
 		7D44C2B425500DB900DE8799 /* IAPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D44C2B325500DB900DE8799 /* IAPHelper.swift */; };
 		7D44C2BC25508BA800DE8799 /* PaymentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D44C2BB25508BA800DE8799 /* PaymentVC.swift */; };
+		7D67377D255EB21E00226561 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D67377C255EB21E00226561 /* StoreKit.framework */; };
 		7DD0D12C2557E1AD00A52967 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD0D1282557E1A900A52967 /* UIButtonExtension.swift */; };
 		7DD0D12D2557E1AD00A52967 /* UIImageViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD0D1292557E1A900A52967 /* UIImageViewExtension.swift */; };
 		7DD0D12E2557E1AD00A52967 /* PaymentMethodCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DD0D12B2557E1AC00A52967 /* PaymentMethodCollectionViewCell.swift */; };
@@ -265,6 +266,7 @@
 		6583AE5D8A2EA3151F17957C /* Pods-BesmartTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BesmartTests.release.xcconfig"; path = "Target Support Files/Pods-BesmartTests/Pods-BesmartTests.release.xcconfig"; sourceTree = "<group>"; };
 		7D44C2B325500DB900DE8799 /* IAPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
 		7D44C2BB25508BA800DE8799 /* PaymentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentVC.swift; sourceTree = "<group>"; };
+		7D67377C255EB21E00226561 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		7DD0D1282557E1A900A52967 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 		7DD0D1292557E1A900A52967 /* UIImageViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageViewExtension.swift; sourceTree = "<group>"; };
 		7DD0D12B2557E1AC00A52967 /* PaymentMethodCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentMethodCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -283,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20E772738FA8A548584C8180 /* Pods_Besmart.framework in Frameworks */,
+				7D67377D255EB21E00226561 /* StoreKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,7 +503,6 @@
 				04EB4F6D23A10806000F0296 /* VideosVC.swift */,
 				04F38E9B23E6D1C70000E08B /* WalletVC.swift */,
 				7DD0D1562557E1CB00A52967 /* New Group */,
-				7D44C2B325500DB900DE8799 /* IAPHelper.swift */,
 				04F38E9D23E6E5850000E08B /* PeopleVC.swift */,
 				04F38EA123E6F85B0000E08B /* MesagesVC.swift */,
 				04F38EA323E7044A0000E08B /* SettingVC.swift */,
@@ -562,6 +564,7 @@
 		346EEFB57D5785E1F411E2CB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7D67377C255EB21E00226561 /* StoreKit.framework */,
 				D8BE43E1DC3847B19BD35724 /* Pods_Besmart.framework */,
 				F34129D934071CB99793BDE1 /* Pods_BesmartTests.framework */,
 				9F76D1A4709A5D45AFE7D1A1 /* Pods_BesmartUITests.framework */,
@@ -602,6 +605,7 @@
 		7DD0D1562557E1CB00A52967 /* New Group */ = {
 			isa = PBXGroup;
 			children = (
+				7D44C2B325500DB900DE8799 /* IAPHelper.swift */,
 				7D44C2BB25508BA800DE8799 /* PaymentVC.swift */,
 				7DD0D12A2557E1AC00A52967 /* Custom cells */,
 				7DD0D1272557E1A900A52967 /* Extensions */,
@@ -1126,7 +1130,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Besmart/Besmart.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = U52F2M25LT;
 				INFOPLIST_FILE = Besmart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1148,7 +1152,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Besmart/Besmart.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 13;
+				CURRENT_PROJECT_VERSION = 15;
 				DEVELOPMENT_TEAM = U52F2M25LT;
 				INFOPLIST_FILE = Besmart/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (

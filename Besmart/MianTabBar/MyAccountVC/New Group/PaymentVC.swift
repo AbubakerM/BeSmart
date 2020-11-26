@@ -7,6 +7,183 @@
 //
 
 import UIKit
+import StoreKit
+
+private let allTicketIdentifiers = [
+    "besmart.package.a",
+    "besmart.package.b"
+//    ,
+//    "besmart.package.c",
+//    "besmart.package.d",
+//    "besmart.package.e",
+//    "besmart.package.f",
+//    "besmart.package.g",
+]
+
+class PaymentVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate {
+    func numberOfComponents(in pickerView: UIPickerView) -> Int {
+        return 1
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
+        return productsArray.count
+    }
+    
+    func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
+        index = row
+        return productsArray[row].localizedPrice()
+    }
+    
+    //
+    
+    @IBOutlet weak var picker: UIPickerView!
+    @IBOutlet weak var payButton: UIButton!
+    @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
+    
+    var productsArray = [SKProduct]()
+    var index = 0
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //validateReceipt()
+        
+        startLoading()
+        PKIAPHandler.shared.setProductIds(ids: allTicketIdentifiers)
+        PKIAPHandler.shared.fetchAvailableProducts { [weak self](products)   in
+           guard let sSelf = self else {return}
+           sSelf.productsArray = products
+            print(products)
+            DispatchQueue.main.async {
+                sSelf.picker.reloadAllComponents()
+                sSelf.stopLoading()
+            }
+        }
+        
+    }
+    
+    func startLoading() {
+        payButton.setTitle("", for: .normal)
+        activityIndicator.startAnimating()
+    }
+    
+    func stopLoading() {
+        payButton.setTitle("تأكيد", for: .normal)
+        activityIndicator.stopAnimating()
+    }
+    
+    @IBAction func closeBtn(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func payBtn(_ sender: UIButton) {
+        //productsArray[index]
+//        guard validateReceipt() else {
+//            return
+//        }
+        
+        startLoading()
+        
+        PKIAPHandler.shared.purchase(product: self.productsArray[index]) { (alert, product, transaction) in
+            self.stopLoading()
+           if let tran = transaction, let prod = product {
+//             use transaction details and purchased product as you want
+                let index = "iOs Store Payment"
+                let par = ["link":tran.transactionIdentifier ?? "Nil",
+                           "payment_method_id":"-1",
+                           "amount":"\(prod.price.decimalValue)"] as [String : Any]
+                DataClient.submitPayment(parameters: par, success: { (response) in
+                    let alert = UIAlertController(title: "تمت العملية بنجاح", message: "تم شراء واضافة الرصيد الى محفظتك بنجاح", preferredStyle: .alert)
+                    let ok = UIAlertAction(title: "انهاء", style: .default) { (action) in
+                        self.dismiss(animated: true, completion: {
+                            //Dismiss & Update Profile
+                            NotificationCenter.default.post(name: .updatePoints, object: nil)
+                        })
+                    }
+                    alert.addAction(ok)
+                    self.present(alert, animated: true, completion: nil)
+                }) { (failResponse) in
+                    let alert = UIAlertController(title: "", message: failResponse, preferredStyle: .alert)
+                    let ok = UIAlertAction(title: "انهاء", style: .default) { (action) in
+                        self.dismiss(animated: true, completion: {
+                            //Dismiss & Update Profile
+                            //NotificationCenter.default.post(name: .updatePoints, object: nil)
+                        })
+                    }
+                    alert.addAction(ok)
+                    self.present(alert, animated: true, completion: nil)
+                }
+
+                
+            }
+           }
+            
+    }
+    
+//    func validateReceipt() -> Bool {
+//        if let appStoreReceiptURL = Bundle.main.appStoreReceiptURL,
+//            FileManager.default.fileExists(atPath: appStoreReceiptURL.path) {
+//
+//            do {
+//                let receiptData = try Data(contentsOf: appStoreReceiptURL, options: .alwaysMapped)
+//                print(receiptData)
+//
+//                let receiptString = receiptData.base64EncodedString(options: [])
+//
+//                // Read receiptData
+//
+//                print("xxx")
+//                print(receiptString)
+//
+//                return true
+//            }
+//            catch {
+//                print("Couldn't read receipt data with error: " + error.localizedDescription)
+//                return false
+//            }
+//        }
+//
+//        return false
+//        guard let receiptURL = Bundle.main.appStoreReceiptURL,
+//            let data = try? Data(contentsOf: receiptURL) else {
+//              return false
+//        }
+//
+//        let encodedData = data.base64EncodedData(options: [])
+//        let url = URL(string: "https://your-app.herokuapp.com/verify")!
+//
+//        var request = URLRequest(url: url)
+//        request.httpBody = encodedData
+//        request.httpMethod = "POST"
+//
+//        let task = URLSession.shared.dataTask(with: request) { (data, response, error) in
+//            guard let data = data,
+//                let object = try? JSONSerialization.jsonObject(with: data, options: []),
+//                let json = object as? [String: Any] else {
+//                    return
+//            }
+//
+//            // Your application logic here.
+//        }
+//        task.resume()
+//    }
+}
+
+extension SKProduct {
+
+    func localizedPrice() -> String {
+        let formatter = NumberFormatter()
+        formatter.numberStyle = .currency
+        formatter.locale = self.priceLocale
+        return formatter.string(from: self.price)!
+    }
+
+}
+
+
+
+
+/*
 import MFSDK
 
 class PaymentVC: UIViewController {
@@ -440,5 +617,5 @@ extension PaymentVC {
     }
 
 }
-
+*/
 

@@ -233,7 +233,7 @@
                                         <rect key="frame" x="0.0" y="376" width="375" height="30"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الفروع" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cK2-G9-xoP">
-                                                <rect key="frame" x="24" y="8" width="26" height="14"/>
+                                                <rect key="frame" x="24" y="3.5" width="32" height="23"/>
                                                 <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="12"/>
                                                 <color key="textColor" red="0.55294117649999996" green="0.79215686269999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -328,19 +328,19 @@
                                         <rect key="frame" x="0.0" y="562" width="375" height="30"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LIo-dH-rgB">
-                                                <rect key="frame" x="299.5" y="0.0" width="51.5" height="30"/>
+                                                <rect key="frame" x="291" y="0.0" width="60" height="30"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleAspectFit" distribution="equalSpacing" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="yLy-QZ-mCK">
-                                                        <rect key="frame" x="0.0" y="8" width="51.5" height="14"/>
+                                                        <rect key="frame" x="0.0" y="3.5" width="60" height="23"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="عرض الكل" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tE2-vV-rd7">
-                                                                <rect key="frame" x="0.0" y="0.0" width="43.5" height="14"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="52" height="23"/>
                                                                 <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="12"/>
                                                                 <color key="textColor" red="0.55294117649999996" green="0.79215686269999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="left-arrow2" translatesAutoresizingMaskIntoConstraints="NO" id="ZOw-NN-UWQ">
-                                                                <rect key="frame" x="47.5" y="0.0" width="4" height="14"/>
+                                                                <rect key="frame" x="56" y="0.0" width="4" height="23"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="4" id="JW3-r0-kd4"/>
                                                                 </constraints>
@@ -348,7 +348,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Wm-L9-8dj">
-                                                        <rect key="frame" x="0.0" y="0.0" width="51.5" height="30"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="60" height="30"/>
                                                         <connections>
                                                             <action selector="showAll:" destination="NNY-dC-PgE" eventType="touchUpInside" id="Gvl-FL-9uL"/>
                                                         </connections>
@@ -366,7 +366,7 @@
                                                 </constraints>
                                             </view>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="كورسات جديدة" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3hN-gg-yiK">
-                                                <rect key="frame" x="24" y="8" width="62" height="14"/>
+                                                <rect key="frame" x="24" y="3.5" width="77.5" height="23"/>
                                                 <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="12"/>
                                                 <color key="textColor" red="0.55294117649999996" green="0.79215686269999996" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1230,7 +1230,7 @@
                                                             <rect key="frame" x="0.0" y="50.5" width="35" height="23"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wfS-Lb-OgA">
-                                                                    <rect key="frame" x="7.5" y="0.0" width="20.5" height="23"/>
+                                                                    <rect key="frame" x="7.5" y="4.5" width="20.5" height="14"/>
                                                                     <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -1250,7 +1250,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="Avq-GE-4tX">
-                                                            <rect key="frame" x="150" y="41" width="135" height="42"/>
+                                                            <rect key="frame" x="150" y="33" width="135" height="42"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="35" translatesAutoresizingMaskIntoConstraints="NO" id="y9z-lV-dR7">
                                                                     <rect key="frame" x="0.0" y="0.0" width="135" height="15"/>
@@ -1392,7 +1392,7 @@
                                                             </constraints>
                                                         </stackView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اساسيات الحاسوب" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOe-5v-DaX">
-                                                            <rect key="frame" x="150" y="10" width="99" height="21"/>
+                                                            <rect key="frame" x="150" y="10" width="74" height="13"/>
                                                             <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="11"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -1407,7 +1407,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="WrR-Eo-KNc">
-                                                            <rect key="frame" x="339" y="14" width="13" height="13"/>
+                                                            <rect key="frame" x="339" y="10" width="13" height="13"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="13" id="YuV-Qc-Mqu"/>
                                                                 <constraint firstAttribute="height" constant="13" id="a5P-OR-irA"/>
@@ -1772,10 +1772,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3hv-Oa-D5T">
-                                <rect key="frame" x="142.5" y="242.5" width="129.5" height="17"/>
+                                <rect key="frame" x="139.5" y="242.5" width="135.5" height="17"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="2if-fa-IYD">
-                                        <rect key="frame" x="0.0" y="0.0" width="55" height="17"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="61" height="17"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="at" translatesAutoresizingMaskIntoConstraints="NO" id="bKB-Xc-i2u">
                                                 <rect key="frame" x="0.0" y="0.0" width="22" height="17"/>
@@ -1785,7 +1785,7 @@
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="محمد" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jBv-bW-IqA">
-                                                <rect key="frame" x="28" y="0.0" width="27" height="17"/>
+                                                <rect key="frame" x="28" y="0.0" width="33" height="17"/>
                                                 <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="14"/>
                                                 <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
@@ -1793,7 +1793,7 @@
                                         </subviews>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="boz-lr-52A">
-                                        <rect key="frame" x="70" y="0.0" width="59.5" height="17"/>
+                                        <rect key="frame" x="76" y="0.0" width="59.5" height="17"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sa" translatesAutoresizingMaskIntoConstraints="NO" id="I70-B3-x9q">
                                                 <rect key="frame" x="0.0" y="0.0" width="22" height="17"/>
@@ -1820,10 +1820,10 @@
                                 </constraints>
                                 <state key="normal" image="تعديل"/>
                             </button>
-                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3zG-Tc-FBm">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3zG-Tc-FBm">
                                 <rect key="frame" x="131.5" y="269.5" width="151.5" height="15"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XUt-43-sRo" customClass="CosmosView" customModule="Cosmos">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XUt-43-sRo" customClass="CosmosView" customModule="Cosmos">
                                         <rect key="frame" x="0.0" y="-0.5" width="110" height="16"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="16" id="mQo-V1-PDr"/>
@@ -1846,8 +1846,8 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="1500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWJ-Y6-CFM">
-                                        <rect key="frame" x="120" y="-0.5" width="31.5" height="16.5"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWJ-Y6-CFM">
+                                        <rect key="frame" x="120" y="-6" width="31.5" height="27"/>
                                         <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="14"/>
                                         <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -2099,22 +2099,22 @@
                                 </connections>
                             </containerView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yBj-hj-F3c">
-                                <rect key="frame" x="363.5" y="116" width="37.5" height="19"/>
+                                <rect key="frame" x="356.5" y="116" width="44.5" height="19"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jQr-eA-UHa">
-                                        <rect key="frame" x="0.0" y="0.0" width="37.5" height="19"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="44.5" height="19"/>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="KzD-7x-Oo0">
-                                        <rect key="frame" x="2" y="0.0" width="33.5" height="15.5"/>
+                                        <rect key="frame" x="2" y="0.0" width="40.5" height="19"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تعديل" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHI-kZ-iG1">
-                                                <rect key="frame" x="0.0" y="0.0" width="19.5" height="15.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="26.5" height="19"/>
                                                 <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                 <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pencil-edit-button" translatesAutoresizingMaskIntoConstraints="NO" id="LMt-Vl-6t8">
-                                                <rect key="frame" x="25.5" y="0.0" width="8" height="15.5"/>
+                                                <rect key="frame" x="32.5" y="0.0" width="8" height="19"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="8" id="2Bg-zV-cZ7"/>
                                                 </constraints>
@@ -3049,9 +3049,9 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="pgy-Ew-6R8">
-                                                            <rect key="frame" x="65" y="174.5" width="236.5" height="17"/>
+                                                            <rect key="frame" x="54.5" y="174.5" width="257.5" height="17"/>
                                                             <subviews>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="d3h-Kh-nFk">
+                                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="d3h-Kh-nFk">
                                                                     <rect key="frame" x="0.0" y="0.0" width="41" height="17"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="internet" translatesAutoresizingMaskIntoConstraints="NO" id="xR8-TR-fTi">
@@ -3061,7 +3061,7 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="MOm-Cd-iKE"/>
                                                                             </constraints>
                                                                         </imageView>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصر" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kN-YA-fU3">
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="مصر" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0kN-YA-fU3">
                                                                             <rect key="frame" x="23" y="0.0" width="18" height="17"/>
                                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                             <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -3069,8 +3069,8 @@
                                                                         </label>
                                                                     </subviews>
                                                                 </stackView>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="TKu-9l-SSm">
-                                                                    <rect key="frame" x="51" y="0.0" width="60" height="17"/>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="TKu-9l-SSm">
+                                                                    <rect key="frame" x="51" y="0.0" width="72" height="17"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coverage-level" translatesAutoresizingMaskIntoConstraints="NO" id="led-Ip-mTa">
                                                                             <rect key="frame" x="0.0" y="0.0" width="17" height="17"/>
@@ -3079,16 +3079,16 @@
                                                                                 <constraint firstAttribute="height" constant="17" id="f64-jo-ht9"/>
                                                                             </constraints>
                                                                         </imageView>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ثانوية عامة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0G-4t-Byy">
-                                                                            <rect key="frame" x="23" y="0.0" width="37" height="17"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="ثانوية عامة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B0G-4t-Byy">
+                                                                            <rect key="frame" x="23" y="0.0" width="49" height="17"/>
                                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                             <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
                                                                 </stackView>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Rf2-ro-R9P">
-                                                                    <rect key="frame" x="121" y="0.0" width="65" height="17"/>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Rf2-ro-R9P">
+                                                                    <rect key="frame" x="133" y="0.0" width="73.5" height="17"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="at" translatesAutoresizingMaskIntoConstraints="NO" id="VEZ-p0-iwm">
                                                                             <rect key="frame" x="0.0" y="0.0" width="17" height="17"/>
@@ -3097,16 +3097,16 @@
                                                                                 <constraint firstAttribute="width" constant="17" id="Xyn-s5-PXG"/>
                                                                             </constraints>
                                                                         </imageView>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="حسين  خالد" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ItL-mL-0dA">
-                                                                            <rect key="frame" x="23" y="0.0" width="42" height="17"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="حسين  خالد" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ItL-mL-0dA">
+                                                                            <rect key="frame" x="23" y="0.0" width="50.5" height="17"/>
                                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                             <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                     </subviews>
                                                                 </stackView>
-                                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="ibz-hA-gWr">
-                                                                    <rect key="frame" x="196" y="0.0" width="40.5" height="17"/>
+                                                                <stackView opaque="NO" contentMode="scaleToFill" ambiguous="YES" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="ibz-hA-gWr">
+                                                                    <rect key="frame" x="216.5" y="0.0" width="41" height="17"/>
                                                                     <subviews>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open-book" translatesAutoresizingMaskIntoConstraints="NO" id="h24-Nu-nNx">
                                                                             <rect key="frame" x="0.0" y="0.0" width="17" height="17"/>
@@ -3115,8 +3115,8 @@
                                                                                 <constraint firstAttribute="width" constant="17" id="fu4-Pb-7WE"/>
                                                                             </constraints>
                                                                         </imageView>
-                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IUG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgw-TK-IGE">
-                                                                            <rect key="frame" x="23" y="0.0" width="17.5" height="17"/>
+                                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="IUG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kgw-TK-IGE">
+                                                                            <rect key="frame" x="23" y="0.0" width="18" height="17"/>
                                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                             <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
@@ -3326,7 +3326,7 @@
                                                             <rect key="frame" x="5" y="10" width="356" height="134"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="أساسيات الحاسوب" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cip-wW-a7V">
-                                                                    <rect key="frame" x="13" y="10" width="117" height="25"/>
+                                                                    <rect key="frame" x="13" y="10" width="87.5" height="25"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="25" id="z4L-2G-tLv"/>
                                                                     </constraints>
@@ -3430,7 +3430,7 @@
                                                                     <rect key="frame" x="297" y="0.0" width="35" height="23"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UXe-mT-fph">
-                                                                            <rect key="frame" x="7.5" y="0.0" width="20.5" height="23"/>
+                                                                            <rect key="frame" x="7.5" y="4.5" width="20.5" height="14"/>
                                                                             <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
@@ -3588,7 +3588,7 @@
                                                             <rect key="frame" x="5" y="22.5" width="356" height="134.5"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="أساسيات الحاسوب" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqB-Mn-Ddt">
-                                                                    <rect key="frame" x="12" y="10" width="117" height="25"/>
+                                                                    <rect key="frame" x="12" y="10" width="87.5" height="25"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="height" constant="25" id="5o2-oS-9hl"/>
                                                                     </constraints>
@@ -3682,7 +3682,7 @@
                                                                     <rect key="frame" x="297" y="0.0" width="35" height="23"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RE8-Wk-ZZp">
-                                                                            <rect key="frame" x="7.5" y="0.0" width="20.5" height="23"/>
+                                                                            <rect key="frame" x="7.5" y="4.5" width="20.5" height="14"/>
                                                                             <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
@@ -3799,22 +3799,22 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="366" height="130.5"/>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مهندسين حديثي التخرج" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ysT-sY-PLm">
-                                                            <rect key="frame" x="13" y="143.5" width="127.5" height="21"/>
+                                                            <rect key="frame" x="13" y="143.5" width="92" height="13"/>
                                                             <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="11"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="n7m-XL-4db">
-                                                            <rect key="frame" x="317.5" y="143.5" width="35.5" height="20"/>
+                                                            <rect key="frame" x="316.5" y="143.5" width="36.5" height="20"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3/15" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AyR-bB-kZX">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="21.5" height="20"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="22.5" height="20"/>
                                                                     <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="11"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow" translatesAutoresizingMaskIntoConstraints="NO" id="Vnp-Pm-0ms">
-                                                                    <rect key="frame" x="25.5" y="0.0" width="10" height="20"/>
+                                                                    <rect key="frame" x="26.5" y="0.0" width="10" height="20"/>
                                                                     <constraints>
                                                                         <constraint firstAttribute="width" constant="10" id="8eC-6B-apF"/>
                                                                         <constraint firstAttribute="height" constant="20" id="jGP-7z-mAl"/>
@@ -3823,7 +3823,7 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="Xot-Zu-O8F">
-                                                            <rect key="frame" x="57.5" y="174.5" width="251.5" height="17"/>
+                                                            <rect key="frame" x="57.5" y="166.5" width="251.5" height="17"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="iic-1E-OaP">
                                                                     <rect key="frame" x="0.0" y="0.0" width="60" height="17"/>
@@ -4082,19 +4082,19 @@
                                                             </subviews>
                                                         </stackView>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="pKS-ao-DJd">
-                                                            <rect key="frame" x="57.5" y="174.5" width="251.5" height="17"/>
+                                                            <rect key="frame" x="47" y="174.5" width="272.5" height="17"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Wff-1b-dXd">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="60" height="17"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="72" height="17"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ثانوية عامة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Moj-EN-gMX">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="37" height="17"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="49" height="17"/>
                                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                             <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="coverage-level" translatesAutoresizingMaskIntoConstraints="NO" id="veQ-Zm-sGe">
-                                                                            <rect key="frame" x="43" y="0.0" width="17" height="17"/>
+                                                                            <rect key="frame" x="55" y="0.0" width="17" height="17"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="17" id="GMH-g8-fnz"/>
                                                                                 <constraint firstAttribute="width" constant="17" id="b6b-vE-rb0"/>
@@ -4103,16 +4103,16 @@
                                                                     </subviews>
                                                                 </stackView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="OkO-k9-4Vv">
-                                                                    <rect key="frame" x="75" y="0.0" width="65" height="17"/>
+                                                                    <rect key="frame" x="87" y="0.0" width="73.5" height="17"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="حسين  خالد" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ICl-sb-AaT">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="42" height="17"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="50.5" height="17"/>
                                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                             <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="J7g-R4-HhA">
-                                                                            <rect key="frame" x="48" y="0.0" width="17" height="17"/>
+                                                                            <rect key="frame" x="56.5" y="0.0" width="17" height="17"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="17" id="9hF-Ar-MWS"/>
                                                                                 <constraint firstAttribute="height" constant="17" id="sHT-5d-ks1"/>
@@ -4121,7 +4121,7 @@
                                                                     </subviews>
                                                                 </stackView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="8SW-17-x1H">
-                                                                    <rect key="frame" x="155" y="0.0" width="41" height="17"/>
+                                                                    <rect key="frame" x="175.5" y="0.0" width="41" height="17"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مصر" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BmJ-fx-VTD">
                                                                             <rect key="frame" x="0.0" y="0.0" width="18" height="17"/>
@@ -4139,16 +4139,16 @@
                                                                     </subviews>
                                                                 </stackView>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="eoB-1l-EgZ">
-                                                                    <rect key="frame" x="211" y="0.0" width="40.5" height="17"/>
+                                                                    <rect key="frame" x="231.5" y="0.0" width="41" height="17"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IUG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uEF-Js-qrA">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="17.5" height="17"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="18" height="17"/>
                                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                             <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open-book" translatesAutoresizingMaskIntoConstraints="NO" id="XV5-3G-7R9">
-                                                                            <rect key="frame" x="23.5" y="0.0" width="17" height="17"/>
+                                                                            <rect key="frame" x="24" y="0.0" width="17" height="17"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="height" constant="17" id="8Zz-yz-SJV"/>
                                                                                 <constraint firstAttribute="width" constant="17" id="Tpe-bZ-2rw"/>
@@ -4340,7 +4340,7 @@
                                         <rect key="frame" x="23" y="6" width="368" height="17"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="vBD-MW-zZh">
-                                                <rect key="frame" x="0.0" y="0.0" width="60" height="17"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="72" height="17"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="at" translatesAutoresizingMaskIntoConstraints="NO" id="Jcd-sp-cA9">
                                                         <rect key="frame" x="0.0" y="0.0" width="17" height="17"/>
@@ -4350,7 +4350,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ثانوية عامة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Lj-8R-D30">
-                                                        <rect key="frame" x="23" y="0.0" width="37" height="17"/>
+                                                        <rect key="frame" x="23" y="0.0" width="49" height="17"/>
                                                         <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                         <color key="textColor" red="0.73333333329999995" green="0.73725490199999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -4358,7 +4358,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="E1A-zg-gWh">
-                                                <rect key="frame" x="114" y="0.0" width="65" height="17"/>
+                                                <rect key="frame" x="119" y="0.0" width="73.5" height="17"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Profile" translatesAutoresizingMaskIntoConstraints="NO" id="cdK-c4-1SP">
                                                         <rect key="frame" x="0.0" y="0.0" width="17" height="17"/>
@@ -4368,7 +4368,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="حسين  خالد" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1bd-Hd-JXD">
-                                                        <rect key="frame" x="23" y="0.0" width="42" height="17"/>
+                                                        <rect key="frame" x="23" y="0.0" width="50.5" height="17"/>
                                                         <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                         <color key="textColor" red="0.73333333329999995" green="0.73725490199999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -4376,7 +4376,7 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="L8R-M8-xGF">
-                                                <rect key="frame" x="232.5" y="0.0" width="40.5" height="17"/>
+                                                <rect key="frame" x="239" y="0.0" width="41" height="17"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open-book" translatesAutoresizingMaskIntoConstraints="NO" id="xjG-jx-apk">
                                                         <rect key="frame" x="0.0" y="0.0" width="17" height="17"/>
@@ -4386,7 +4386,7 @@
                                                         </constraints>
                                                     </imageView>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IUG" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1xW-ex-ehB">
-                                                        <rect key="frame" x="23" y="0.0" width="17.5" height="17"/>
+                                                        <rect key="frame" x="23" y="0.0" width="18" height="17"/>
                                                         <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                         <color key="textColor" red="0.73333333329999995" green="0.73725490199999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -4890,7 +4890,7 @@
                                                             <rect key="frame" x="291" y="0.0" width="35" height="23"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q6W-2a-H34">
-                                                                    <rect key="frame" x="7.5" y="0.0" width="20.5" height="23"/>
+                                                                    <rect key="frame" x="7.5" y="4.5" width="20.5" height="14"/>
                                                                     <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -5756,13 +5756,13 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مهندسين حديثي التخرج" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Nro-Mq-Ck5">
-                                                            <rect key="frame" x="120" y="10" width="139.5" height="23"/>
+                                                            <rect key="frame" x="120" y="10" width="100" height="14"/>
                                                             <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="1FW-dd-2sp">
-                                                            <rect key="frame" x="120" y="43" width="174.5" height="17"/>
+                                                            <rect key="frame" x="120" y="34" width="174.5" height="17"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="I4P-mE-hho">
                                                                     <rect key="frame" x="0.0" y="0.0" width="42.5" height="17"/>
@@ -5821,7 +5821,7 @@
                                                             </subviews>
                                                         </stackView>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dsC-vw-FhJ" customClass="CosmosView" customModule="Cosmos">
-                                                            <rect key="frame" x="120" y="72" width="100" height="16"/>
+                                                            <rect key="frame" x="120" y="63" width="100" height="16"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="100" id="2yg-CV-V3L"/>
                                                                 <constraint firstAttribute="height" constant="16" id="quN-sg-bV3"/>
@@ -5847,12 +5847,12 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1500" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bm5-Wy-qNW">
-                                                            <rect key="frame" x="230" y="72.5" width="29" height="15.5"/>
+                                                            <rect key="frame" x="230" y="63.5" width="29" height="15.5"/>
                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="13"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yWt-Fj-iSx">
-                                                            <rect key="frame" x="333" y="11.5" width="20" height="20"/>
+                                                            <rect key="frame" x="333" y="7" width="20" height="20"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="YSo-hB-0PJ">
                                                                     <rect key="frame" x="5" y="5" width="10" height="10"/>
@@ -5974,7 +5974,7 @@
                                         <rect key="frame" x="24" y="16" width="275.5" height="120"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الرصيد الحالي" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NzR-kK-rhO">
-                                                <rect key="frame" x="0.0" y="22" width="85.5" height="25"/>
+                                                <rect key="frame" x="0.0" y="22" width="66.5" height="15.5"/>
                                                 <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="13"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
@@ -5989,7 +5989,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c5t-3a-Jyk">
-                                                <rect key="frame" x="213.5" y="22" width="42" height="21"/>
+                                                <rect key="frame" x="221.5" y="22" width="34" height="21"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="21" id="l5w-XK-wwr"/>
                                                 </constraints>
@@ -6025,28 +6025,28 @@
                                         <rect key="frame" x="24" y="148" width="275.5" height="35"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="aWW-CK-3S6">
-                                                <rect key="frame" x="9" y="8" width="258" height="19"/>
+                                                <rect key="frame" x="9" y="11.5" width="258" height="12"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="النوع" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oaD-Kw-7Xj">
-                                                        <rect key="frame" x="0.0" y="0.0" width="58.5" height="19"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="58.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="10"/>
                                                         <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="السعر" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oZa-eS-DXn">
-                                                        <rect key="frame" x="66.5" y="0.0" width="58.5" height="19"/>
+                                                        <rect key="frame" x="66.5" y="0.0" width="58.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="10"/>
                                                         <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الاسم" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JLN-Xx-YM0">
-                                                        <rect key="frame" x="133" y="0.0" width="58.5" height="19"/>
+                                                        <rect key="frame" x="133" y="0.0" width="58.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="10"/>
                                                         <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="التاريخ" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Ni-9V-Uoh">
-                                                        <rect key="frame" x="199.5" y="0.0" width="58.5" height="19"/>
+                                                        <rect key="frame" x="199.5" y="0.0" width="58.5" height="12"/>
                                                         <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="10"/>
                                                         <color key="textColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <nil key="highlightedColor"/>
@@ -6176,84 +6176,117 @@
             </objects>
             <point key="canvasLocation" x="-3358.125" y="3111.9718309859154"/>
         </scene>
-        <!--View Controller-->
+        <!--PaymentVC-->
         <scene sceneID="47X-cz-hQD">
             <objects>
-                <viewController id="gnW-6O-NR3" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="PaymentVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gnW-6O-NR3" customClass="PaymentVC" customModule="Besmart" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="l2U-8t-aQE">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="zAH-FX-W4e">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                <view key="tableHeaderView" contentMode="scaleToFill" id="bO9-8k-kpQ">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
-                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                    <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="قيمة الدفع" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="90s-n9-08e">
-                                            <rect key="frame" x="183" y="14" width="48.5" height="16.5"/>
-                                            <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="14"/>
-                                            <nil key="textColor"/>
-                                            <nil key="highlightedColor"/>
-                                        </label>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="omR-zA-aGO">
-                                            <rect key="frame" x="369" y="9.5" width="25" height="25"/>
-                                            <constraints>
-                                                <constraint firstAttribute="width" constant="25" id="Awf-jH-K0t"/>
-                                                <constraint firstAttribute="height" constant="25" id="JPt-qZ-wMp"/>
-                                            </constraints>
-                                            <color key="tintColor" red="0.13635443650000001" green="0.13635443650000001" blue="0.13635443650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <state key="normal" image="xmark.circle.fill" catalog="system"/>
-                                            <connections>
-                                                <action selector="cancelPayment:" destination="bHo-yV-XnJ" eventType="touchUpInside" id="6XC-mk-oFH"/>
-                                            </connections>
-                                        </button>
-                                    </subviews>
-                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                    <constraints>
-                                        <constraint firstItem="omR-zA-aGO" firstAttribute="centerY" secondItem="bO9-8k-kpQ" secondAttribute="centerY" id="V6w-6a-4MV"/>
-                                        <constraint firstItem="90s-n9-08e" firstAttribute="centerX" secondItem="bO9-8k-kpQ" secondAttribute="centerX" id="bCW-aI-UWE"/>
-                                        <constraint firstAttribute="trailing" secondItem="omR-zA-aGO" secondAttribute="trailing" constant="20" id="dYv-qU-GQY"/>
-                                        <constraint firstItem="90s-n9-08e" firstAttribute="centerY" secondItem="bO9-8k-kpQ" secondAttribute="centerY" id="tTr-JL-hcN"/>
-                                    </constraints>
-                                </view>
-                                <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PaymentCell" rowHeight="40" id="i32-vj-VVz" customClass="PaymentCell" customModule="Besmart" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="72" width="414" height="40"/>
-                                        <autoresizingMask key="autoresizingMask"/>
-                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="i32-vj-VVz" id="BX8-xZ-bvG">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="40"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                            <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XDy-wu-wAY">
-                                                    <rect key="frame" x="190" y="12" width="34.5" height="16.5"/>
-                                                    <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="14"/>
-                                                    <nil key="textColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                            </subviews>
-                                            <constraints>
-                                                <constraint firstItem="XDy-wu-wAY" firstAttribute="centerY" secondItem="BX8-xZ-bvG" secondAttribute="centerY" id="1E9-pp-U5x"/>
-                                                <constraint firstItem="XDy-wu-wAY" firstAttribute="centerX" secondItem="BX8-xZ-bvG" secondAttribute="centerX" id="ThV-8b-fae"/>
-                                            </constraints>
-                                        </tableViewCellContentView>
-                                        <connections>
-                                            <outlet property="titleLbl" destination="XDy-wu-wAY" id="Bmh-ae-Hgp"/>
-                                        </connections>
-                                    </tableViewCell>
-                                </prototypes>
-                            </tableView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Q9-sf-huv">
+                                <rect key="frame" x="0.0" y="462.5" width="414" height="399.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CO0-EQ-2Y1">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="399.5"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JJQ-3I-g4e">
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="58"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="F2Z-kF-CKe">
+                                                        <rect key="frame" x="20" y="8" width="71.5" height="50"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="yRn-Rj-RO6"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
+                                                        <state key="normal" title="الغاء">
+                                                            <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="closeBtn:" destination="gnW-6O-NR3" eventType="touchUpInside" id="Ywd-Nr-beo"/>
+                                                        </connections>
+                                                    </button>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kWi-xp-iTJ">
+                                                        <rect key="frame" x="91.5" y="8" width="314.5" height="50"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    </view>
+                                                </subviews>
+                                                <directionalEdgeInsets key="directionalLayoutMargins" top="8" leading="20" bottom="0.0" trailing="8"/>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Riu-aO-mbI">
+                                                <rect key="frame" x="0.0" y="58" width="414" height="25.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="المبلغ المراد دفعه" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nIg-Di-mMg">
+                                                        <rect key="frame" x="8" y="0.0" width="398" height="17.5"/>
+                                                        <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="15"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <directionalEdgeInsets key="directionalLayoutMargins" top="0.0" leading="8" bottom="8" trailing="8"/>
+                                            </stackView>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eAY-jO-QhR">
+                                                <rect key="frame" x="0.0" y="83.5" width="414" height="216"/>
+                                                <color key="backgroundColor" systemColor="systemGray6Color"/>
+                                                <connections>
+                                                    <outlet property="dataSource" destination="gnW-6O-NR3" id="d3Q-Se-Fyw"/>
+                                                    <outlet property="delegate" destination="gnW-6O-NR3" id="8EG-0t-W59"/>
+                                                </connections>
+                                            </pickerView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="316-Xt-KSw">
+                                                <rect key="frame" x="0.0" y="299.5" width="414" height="100"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ljg-Cd-Rnm">
+                                                        <rect key="frame" x="100" y="25" width="214" height="50"/>
+                                                        <color key="backgroundColor" red="0.0" green="0.67843137249999996" blue="0.90980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="50" id="n6M-Nf-y30"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="14"/>
+                                                        <state key="normal" title="تأكيد">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="25"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                        <connections>
+                                                            <action selector="payBtn:" destination="gnW-6O-NR3" eventType="touchUpInside" id="qf1-VB-2uu"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <directionalEdgeInsets key="directionalLayoutMargins" top="25" leading="100" bottom="25" trailing="100"/>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="iFe-lL-nEU">
+                                        <rect key="frame" x="197" y="339.5" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="CO0-EQ-2Y1" firstAttribute="leading" secondItem="4Q9-sf-huv" secondAttribute="leading" id="3lI-qL-yeS"/>
+                                    <constraint firstItem="CO0-EQ-2Y1" firstAttribute="top" secondItem="4Q9-sf-huv" secondAttribute="top" id="7cL-70-Kkd"/>
+                                    <constraint firstItem="iFe-lL-nEU" firstAttribute="centerY" secondItem="Ljg-Cd-Rnm" secondAttribute="centerY" id="9kb-0a-Xvc"/>
+                                    <constraint firstAttribute="trailing" secondItem="CO0-EQ-2Y1" secondAttribute="trailing" id="HZv-Gb-cPm"/>
+                                    <constraint firstItem="iFe-lL-nEU" firstAttribute="centerX" secondItem="Ljg-Cd-Rnm" secondAttribute="centerX" id="Vgl-W1-tez"/>
+                                    <constraint firstAttribute="bottom" secondItem="CO0-EQ-2Y1" secondAttribute="bottom" id="vpr-Cz-16p"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="aof-zh-LAX"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="zAH-FX-W4e" firstAttribute="top" secondItem="aof-zh-LAX" secondAttribute="top" id="UIV-Cc-KJA"/>
-                            <constraint firstItem="zAH-FX-W4e" firstAttribute="leading" secondItem="aof-zh-LAX" secondAttribute="leading" id="a5k-0n-p2G"/>
-                            <constraint firstItem="aof-zh-LAX" firstAttribute="trailing" secondItem="zAH-FX-W4e" secondAttribute="trailing" id="dt6-HG-Gid"/>
-                            <constraint firstItem="aof-zh-LAX" firstAttribute="bottom" secondItem="zAH-FX-W4e" secondAttribute="bottom" id="yXM-Uy-fAa"/>
+                            <constraint firstItem="aof-zh-LAX" firstAttribute="trailing" secondItem="4Q9-sf-huv" secondAttribute="trailing" id="Igt-gD-aZx"/>
+                            <constraint firstItem="4Q9-sf-huv" firstAttribute="leading" secondItem="aof-zh-LAX" secondAttribute="leading" id="VrX-8Y-g74"/>
+                            <constraint firstItem="aof-zh-LAX" firstAttribute="bottom" secondItem="4Q9-sf-huv" secondAttribute="bottom" id="yGI-Vb-99U"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="activityIndicator" destination="iFe-lL-nEU" id="Fgu-Zd-1YO"/>
+                        <outlet property="payButton" destination="Ljg-Cd-Rnm" id="zcL-4B-1Nd"/>
+                        <outlet property="picker" destination="eAY-jO-QhR" id="cvI-bs-Trv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AHd-0e-TMH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -6460,7 +6493,7 @@
                                                             <rect key="frame" x="0.0" y="0.0" width="414" height="130"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1X-xh-EiH">
-                                                                    <rect key="frame" x="181" y="46" width="52.5" height="38"/>
+                                                                    <rect key="frame" x="182.5" y="53.5" width="49" height="23.5"/>
                                                                     <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="20"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -6566,7 +6599,7 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="محمد يونس" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JpS-yq-yqi">
-                                                    <rect key="frame" x="62" y="15" width="75" height="25"/>
+                                                    <rect key="frame" x="62" y="15" width="52" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="ZeQ-jq-nDs"/>
                                                     </constraints>
@@ -6575,7 +6608,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8:20 PM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nBM-96-6oH">
-                                                    <rect key="frame" x="306.5" y="15" width="50" height="25"/>
+                                                    <rect key="frame" x="307.5" y="15" width="49" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="VLH-HE-Yp1"/>
                                                     </constraints>
@@ -6584,7 +6617,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="محمد يونس" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7qe-uq-1Ah">
-                                                    <rect key="frame" x="62" y="40" width="63.5" height="25"/>
+                                                    <rect key="frame" x="62" y="40" width="44" height="25"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="25" id="Vyv-4e-MhH"/>
                                                     </constraints>
@@ -6786,7 +6819,7 @@
                                                             <rect key="frame" x="0.0" y="40" width="35" height="23"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qif-G1-xaX">
-                                                                    <rect key="frame" x="7.5" y="0.0" width="20.5" height="23"/>
+                                                                    <rect key="frame" x="7.5" y="4.5" width="20.5" height="14"/>
                                                                     <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -7496,7 +7529,7 @@
                                                             <rect key="frame" x="0.0" y="26" width="35" height="23"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gdI-gi-1iX">
-                                                                    <rect key="frame" x="7.5" y="0.0" width="20.5" height="23"/>
+                                                                    <rect key="frame" x="7.5" y="4.5" width="20.5" height="14"/>
                                                                     <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -7794,7 +7827,7 @@
                                                             <rect key="frame" x="0.0" y="50.5" width="35" height="23"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8U8-fM-ztW">
-                                                                    <rect key="frame" x="7.5" y="0.0" width="20.5" height="23"/>
+                                                                    <rect key="frame" x="7.5" y="4.5" width="20.5" height="14"/>
                                                                     <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -7809,7 +7842,7 @@
                                                             </constraints>
                                                         </view>
                                                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Ivf-Sb-NNE">
-                                                            <rect key="frame" x="150" y="41" width="135" height="38"/>
+                                                            <rect key="frame" x="150" y="33" width="135" height="38"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="MxP-0B-8JE">
                                                                     <rect key="frame" x="0.0" y="0.0" width="135" height="15"/>
@@ -7951,7 +7984,7 @@
                                                             </constraints>
                                                         </stackView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="اساسيات الحاسوب" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gfz-CN-9Wi">
-                                                            <rect key="frame" x="150" y="10" width="99" height="21"/>
+                                                            <rect key="frame" x="150" y="10" width="74" height="13"/>
                                                             <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="11"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -7983,7 +8016,7 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </view>
                                                         <stackView hidden="YES" opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="AVu-0R-ZII">
-                                                            <rect key="frame" x="336" y="14" width="25" height="13"/>
+                                                            <rect key="frame" x="336" y="10" width="25" height="13"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="star" translatesAutoresizingMaskIntoConstraints="NO" id="csw-gs-G4r">
                                                                     <rect key="frame" x="0.0" y="0.0" width="13.5" height="13"/>
@@ -8139,7 +8172,7 @@
                                                             <rect key="frame" x="291" y="0.0" width="35" height="23"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="80$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nPi-Hy-2Qw">
-                                                                    <rect key="frame" x="7.5" y="0.0" width="20.5" height="23"/>
+                                                                    <rect key="frame" x="7.5" y="4.5" width="20.5" height="14"/>
                                                                     <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
                                                                     <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                     <nil key="highlightedColor"/>
@@ -9315,16 +9348,16 @@
                                 <rect key="frame" x="204" y="76.5" width="173" height="34"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="wdP-4H-Lg3">
-                                <rect key="frame" x="111" y="72.5" width="63" height="42.5"/>
+                                <rect key="frame" x="111" y="78" width="63" height="31.5"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VuO-Zh-n3a">
-                                        <rect key="frame" x="0.0" y="0.0" width="63" height="28.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="63" height="17.5"/>
                                         <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="15"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@20198523" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hud-zJ-dPv">
-                                        <rect key="frame" x="0.0" y="28.5" width="63" height="14"/>
+                                        <rect key="frame" x="0.0" y="17.5" width="63" height="14"/>
                                         <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="12"/>
                                         <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
@@ -9636,7 +9669,7 @@
                                                 <rect key="frame" x="12" y="6" width="378" height="17"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="Fls-ws-h2Z">
-                                                        <rect key="frame" x="0.0" y="0.0" width="65.5" height="17"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="80" height="17"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grayWork" translatesAutoresizingMaskIntoConstraints="NO" id="MVl-hE-kEK">
                                                                 <rect key="frame" x="0.0" y="0.0" width="12" height="17"/>
@@ -9646,7 +9679,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الثانوية العامة" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QGF-QY-pcT">
-                                                                <rect key="frame" x="18" y="0.0" width="47.5" height="17"/>
+                                                                <rect key="frame" x="18" y="0.0" width="62" height="17"/>
                                                                 <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                 <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -9654,7 +9687,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="LcW-q5-f4K">
-                                                        <rect key="frame" x="98" y="0.0" width="68.5" height="17"/>
+                                                        <rect key="frame" x="90.5" y="0.0" width="78.5" height="17"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grayPro" translatesAutoresizingMaskIntoConstraints="NO" id="AyI-O7-4Uw">
                                                                 <rect key="frame" x="0.0" y="0.0" width="12" height="17"/>
@@ -9664,7 +9697,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="أمجد العجرمي" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="l8f-QZ-KdT">
-                                                                <rect key="frame" x="18" y="0.0" width="50.5" height="17"/>
+                                                                <rect key="frame" x="18" y="0.0" width="60.5" height="17"/>
                                                                 <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                 <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -9672,7 +9705,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="0mA-Yp-AnL">
-                                                        <rect key="frame" x="199" y="0.0" width="98" height="17"/>
+                                                        <rect key="frame" x="180" y="0.0" width="129" height="17"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="internet" translatesAutoresizingMaskIntoConstraints="NO" id="fPH-XQ-Oo7">
                                                                 <rect key="frame" x="0.0" y="0.0" width="12" height="17"/>
@@ -9682,7 +9715,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="المملكة العربية السعودية" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z0i-fG-9G6">
-                                                                <rect key="frame" x="18" y="0.0" width="80" height="17"/>
+                                                                <rect key="frame" x="18" y="0.0" width="111" height="17"/>
                                                                 <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                 <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -9690,7 +9723,7 @@
                                                         </subviews>
                                                     </stackView>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="jHx-9N-rs5">
-                                                        <rect key="frame" x="329.5" y="0.0" width="48.5" height="17"/>
+                                                        <rect key="frame" x="319.5" y="0.0" width="58.5" height="17"/>
                                                         <subviews>
                                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="open-bookGray" translatesAutoresizingMaskIntoConstraints="NO" id="erm-lH-cz4">
                                                                 <rect key="frame" x="0.0" y="0.0" width="12" height="17"/>
@@ -9700,7 +9733,7 @@
                                                                 </constraints>
                                                             </imageView>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="لغة عربية" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RCD-57-MYP">
-                                                                <rect key="frame" x="18" y="0.0" width="30.5" height="17"/>
+                                                                <rect key="frame" x="18" y="0.0" width="40.5" height="17"/>
                                                                 <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                 <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                 <nil key="highlightedColor"/>
@@ -9744,25 +9777,25 @@
                                                             </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="مهندسين حديثي التخرج" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkV-qC-5eM">
-                                                            <rect key="frame" x="120" y="10" width="139.5" height="26"/>
+                                                            <rect key="frame" x="120" y="10" width="139.5" height="23"/>
                                                             <fontDescription key="fontDescription" name="NotoKufiArabic-Bold" family="Noto Kufi Arabic" pointSize="12"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="v8C-dU-Ayg">
-                                                            <rect key="frame" x="120" y="46" width="67.5" height="14"/>
+                                                            <rect key="frame" x="120" y="43" width="87.5" height="17"/>
                                                             <subviews>
                                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="rsF-ia-5bq">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="67.5" height="14"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="87.5" height="17"/>
                                                                     <subviews>
                                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الوقت المتبقي" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gBC-9M-6K4">
-                                                                            <rect key="frame" x="0.0" y="0.0" width="44.5" height="14"/>
+                                                                            <rect key="frame" x="0.0" y="0.0" width="64.5" height="17"/>
                                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                                             <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
                                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="clock" translatesAutoresizingMaskIntoConstraints="NO" id="tSd-T1-RNH">
-                                                                            <rect key="frame" x="50.5" y="0.0" width="17" height="14"/>
+                                                                            <rect key="frame" x="70.5" y="0.0" width="17" height="17"/>
                                                                             <constraints>
                                                                                 <constraint firstAttribute="width" constant="17" id="OKc-96-sqM"/>
                                                                                 <constraint firstAttribute="height" constant="17" id="mPV-Vh-4mw"/>
@@ -9932,7 +9965,7 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <stackView opaque="NO" contentMode="scaleToFill" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="UT2-9e-Xm0">
-                                                            <rect key="frame" x="13" y="52" width="55" height="58"/>
+                                                            <rect key="frame" x="13" y="52" width="61" height="58"/>
                                                             <subviews>
                                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pdf-file-symbol" translatesAutoresizingMaskIntoConstraints="NO" id="vft-Yz-009">
                                                                     <rect key="frame" x="0.0" y="0.0" width="22" height="58"/>
@@ -9942,7 +9975,7 @@
                                                                     </constraints>
                                                                 </imageView>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="محمد" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f87-UF-qJU">
-                                                                    <rect key="frame" x="28" y="0.0" width="27" height="58"/>
+                                                                    <rect key="frame" x="28" y="0.0" width="33" height="58"/>
                                                                     <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="14"/>
                                                                     <color key="textColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
                                                                     <nil key="highlightedColor"/>
@@ -10016,13 +10049,13 @@
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الحاسوب جزء أساسي من حياتنا، تعلم مهارات استخدام الحاسوب مع هذه الدورة الأساسية" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V46-hD-zti">
-                                                            <rect key="frame" x="12" y="38" width="350" height="12"/>
+                                                            <rect key="frame" x="12" y="38" width="350" height="38"/>
                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                             <color key="textColor" red="0.73333333329999995" green="0.73725490199999999" blue="0.75686274509999996" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="u36-gb-962">
-                                                            <rect key="frame" x="321" y="104.5" width="40" height="24"/>
+                                                            <rect key="frame" x="312" y="97.5" width="49" height="31"/>
                                                             <fontDescription key="fontDescription" name="NotoKufiArabic" family="Noto Kufi Arabic" pointSize="10"/>
                                                             <state key="normal" title="عرض المزيد">
                                                                 <color key="titleColor" red="0.64705882349999999" green="0.65098039220000004" blue="0.67843137249999996" alpha="1" colorSpace="calibratedRGB"/>
@@ -11030,10 +11063,10 @@
             </objects>
             <point key="canvasLocation" x="1338" y="-1994"/>
         </scene>
-        <!--PaymentVC-->
+        <!--View Controller-->
         <scene sceneID="Ge8-y6-gtP">
             <objects>
-                <viewController storyboardIdentifier="PaymentVC" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Qbg-Dd-ZzM" customClass="PaymentVC" customModule="Besmart" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Qbg-Dd-ZzM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kXI-I3-k8a">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -11355,6 +11388,20 @@
             <point key="canvasLocation" x="-2513" y="3759"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="KdE-T1-QXU">
+            <size key="intrinsicContentSize" width="100" height="16"/>
+        </designable>
+        <designable name="QkR-g8-LCl">
+            <size key="intrinsicContentSize" width="100" height="16"/>
+        </designable>
+        <designable name="XUt-43-sRo">
+            <size key="intrinsicContentSize" width="110" height="18"/>
+        </designable>
+        <designable name="dsC-vw-FhJ">
+            <size key="intrinsicContentSize" width="100" height="16"/>
+        </designable>
+    </designables>
     <inferredMetricsTieBreakers>
         <segue reference="L0Y-oR-xub"/>
     </inferredMetricsTieBreakers>
@@ -11385,8 +11432,8 @@
         <image name="Wopen-book" width="12.5" height="9.5"/>
         <image name="add-contact" width="28" height="20.5"/>
         <image name="arrow" width="10" height="11"/>
-        <image name="at" width="17" height="14"/>
         <image name="at" catalog="system" width="128" height="124"/>
+        <image name="at" width="17" height="14"/>
         <image name="at-1" width="14" height="11.5"/>
         <image name="bt1" width="35.5" height="35.5"/>
         <image name="bt3" width="50.5" height="34.5"/>
@@ -11436,13 +11483,15 @@
         <image name="user1" width="14" height="18"/>
         <image name="viedoIcon" width="66" height="28"/>
         <image name="wallet (1)" width="17" height="17"/>
-        <image name="xmark.circle.fill" catalog="system" width="128" height="121"/>
         <image name="تعديل" width="20" height="20"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGreenColor">
             <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
