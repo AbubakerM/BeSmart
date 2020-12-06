@@ -86,6 +86,19 @@ class PaymentVC: UIViewController, UIPickerViewDataSource, UIPickerViewDelegate 
         
         PKIAPHandler.shared.purchase(product: self.productsArray[index]) { (alert, product, transaction) in
             self.stopLoading()
+            
+            guard alert != .failed else {
+                let alert = UIAlertController(title: "", message: alert.message, preferredStyle: .alert)
+                let ok = UIAlertAction(title: "انهاء", style: .default) { (action) in
+                    self.dismiss(animated: true, completion: {
+                        //Dismiss & Update Profile
+                        //NotificationCenter.default.post(name: .updatePoints, object: nil)
+                    })
+                }
+                alert.addAction(ok)
+                self.present(alert, animated: true, completion: nil)
+                return }
+            
            if let tran = transaction, let prod = product {
 //             use transaction details and purchased product as you want
                 let index = "iOs Store Payment"
